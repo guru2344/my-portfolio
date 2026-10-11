@@ -389,263 +389,215 @@ function App() {
 
         {/* ================= EXPERIENCE ================= */}
 
-        <section
-          className="section experience-section"
-          id="experience"
-        >
+    ```jsx
+{/* ================= EXPERIENCE ================= */}
 
-          <div className="experience-heading">
+<section
+  className="section experience-section"
+  id="experience"
+>
+  {/* Experience Heading */}
+  <div className="experience-heading">
+    <p className="section-label">
+      03 — EXPERIENCE
+    </p>
 
-            <p className="section-label">
-              03 — EXPERIENCE
+    <h2>
+      My
+      <span> professional journey.</span>
+    </h2>
+
+    <p className="section-text">
+      Experience in application support, production
+      environments, troubleshooting, monitoring,
+      incident management, and maintaining reliable
+      business applications.
+    </p>
+  </div>
+
+  {/* Experience Timeline */}
+  <div className="experience-timeline">
+
+    {/* ========== EXPERIENCE 1 ========== */}
+
+    <article className="experience-card">
+      <div className="experience-dot" />
+
+      <div className="experience-date">
+        AUG 2026 — PRESENT
+      </div>
+
+      <div className="experience-content">
+        <div className="experience-top">
+          <div>
+            <p className="company">
+              NusuMMit Technology Pvt. Ltd.
             </p>
 
-            <h2>
-              My
-              <span> professional journey.</span>
-            </h2>
+            <h3>
+              Application Support Engineer
+            </h3>
 
-            <p className="section-text">
-              Experience in application support, production
-              environments, troubleshooting, monitoring,
-              incident management, and maintaining reliable
-              business applications.
+            <p className="project-name">
+              Project:{" "}
+              <strong>NEAPS — NSE</strong>
+            </p>
+          </div>
+
+          <div className="experience-badge">
+            CURRENT
+          </div>
+        </div>
+
+        {/* Project Description */}
+        <div className="experience-description">
+          <h4>Project Description</h4>
+
+          <p>
+            NEAPS is a web-based application portal
+            associated with the National Stock Exchange
+            of India, supporting listed companies and
+            entities involved in the securities listing
+            process.
+          </p>
+        </div>
+
+        {/* Responsibilities */}
+        <div className="experience-block">
+          <h4>Key Responsibilities</h4>
+
+          <ul>
+            <li>
+              Monitored application health and performance.
+            </li>
+
+            <li>
+              Investigated and troubleshot application issues.
+            </li>
+
+            <li>
+              Handled production incidents and service requests.
+            </li>
+
+            <li>
+              Performed root cause analysis (RCA).
+            </li>
+
+            <li>
+              Analyzed application logs and error messages.
+            </li>
+
+            <li>
+              Collaborated with technical teams to resolve issues.
+            </li>
+          </ul>
+        </div>
+
+        {/* Technologies */}
+        <div className="technology-section">
+          <h4>Technologies &amp; Tools</h4>
+
+          <div className="technology-list">
+            <span>SQL</span>
+            <span>Linux</span>
+            <span>ITRS</span>
+            <span>ServiceNow</span>
+            <span>ITIL</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    {/* ========== EXPERIENCE 2 ========== */}
+
+    <article className="experience-card">
+      <div className="experience-dot" />
+
+      <div className="experience-date">
+        JUL 2024 — JUL 2026
+      </div>
+
+      <div className="experience-content">
+        <div className="experience-top">
+          <div>
+            <p className="company">
+              MyClan Services Pvt. Ltd.
             </p>
 
+            <h3>
+              Application Support Engineer
+            </h3>
+
+            <p className="project-name">
+              Project:{" "}
+              <strong>Oracle FLEXCUBE</strong>
+            </p>
           </div>
 
-              {/* exp one */}
-
-          <div className="experience-timeline">
-
-            <article className="experience-card">
-
-              <div className="experience-dot" />
-
-              <div className="experience-date">
-                AUG 2026 — PRESENT
-              </div>
-
-              <div className="experience-content">
-
-                <div className="experience-top">
-
-                  <div>
-
-                    <p className="company">
-                      NusuMMit Technology Pvt. Ltd.
-                    </p>
-
-                    <h3>
-                      Application Support Engineer
-                    </h3>
-
-                    <p className="project-name">
-                      Project:
-                      <strong> NEAPS — NSE</strong>
-                    </p>
-
-                  </div>
-
-                  <div className="experience-badge">
-                    CURRENT
-                  </div>
-
-                </div>
-
-
-                <div className="experience-description">
-
-                  <h4>
-                    Project Description
-                  </h4>
-
-                  <p>
-                    NEAPS is a specialized web-based application
-                    and portal associated with the National Stock
-                    Exchange of India for listed companies and
-                    entities seeking to list securities.
-                  </p>
-
-                </div>
-
-
-                <div className="experience-block">
-
-                  <h4>
-                    Key Responsibilities
-                  </h4>
-
-                  <ul>
-
-                    <li>
-                      Monitored application health and performance.
-                    </li>
-
-                    <li>
-                      Investigated and resolved application issues.
-                    </li>
-
-                    <li>
-                      Handled production incidents and requests.
-                    </li>
-
-                    <li>
-                      Performed root cause analysis.
-                    </li>
-
-                    <li>
-                      Analyzed application logs and errors.
-                    </li>
-
-                    <li>
-                      Collaborated with technical teams.
-                    </li>
-
-                  </ul>
-
-                </div>
-
-
-                <div className="technology-section">
-
-                  <h4>
-                    Technologies & Tools
-                  </h4>
-
-                  <div className="technology-list">
-
-                    <span>SQL</span>
-                    <span>Linux</span>
-                    <span>ITRS</span>
-                    <span>ServiceNow</span>
-                    <span>ITIL</span>
-                    {/* <span>AppDynamics</span> */}
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </article>
-
+          <div className="experience-badge">
+            PREVIOUS
           </div>
+        </div>
 
-          {/* exp 2  */}
+        {/* Project Description */}
+        <div className="experience-description">
+          <h4>Project Description</h4>
 
-                 <div className="experience-timeline">
+          <p>
+            Oracle FLEXCUBE is a core banking software
+            suite developed by Oracle Financial Services.
+            It supports banking operations, including
+            retail and corporate banking, through
+            integrated financial applications.
+          </p>
+        </div>
 
-            <article className="experience-card">
+        {/* Responsibilities */}
+        <div className="experience-block">
+          <h4>Key Responsibilities</h4>
 
-              <div className="experience-dot" />
+          <ul>
+            <li>
+              Monitored application health and performance.
+            </li>
 
-              <div className="experience-date">
-                JULY 2024 — JULY 2026
-              </div>
+            <li>
+              Investigated and troubleshot application issues.
+            </li>
 
-              <div className="experience-content">
+            <li>
+              Performed root cause analysis (RCA).
+            </li>
 
-                <div className="experience-top">
+            <li>
+              Analyzed application logs and error messages.
+            </li>
 
-                  <div>
+            <li>
+              Coordinated with technical teams to resolve incidents.
+            </li>
+          </ul>
+        </div>
 
-                    <p className="company">
-                      MyClan Sevices Pvt. Ltd.
-                    </p>
+        {/* Technologies */}
+        <div className="technology-section">
+          <h4>Technologies &amp; Tools</h4>
 
-                    <h3>
-                      Application Support Engineer
-                    </h3>
-
-                    <p className="project-name">
-                      Project:
-                      <strong>FLEXCUBE</strong>
-                    </p>
-
-                  </div>
-
-                  <div className="experience-badge">
-                    previous
-                  </div>
-
-                </div>
-
-
-                <div className="experience-description">
-
-                  <h4>
-                    Project Description
-                  </h4>
-
-                  <p>
-                   Oracle FLEXCUBE is an automated, universal core banking software suite developed and marketed by Oracle Financial Services. It serves as a comprehensive technology backbone that integrates and modernizes retail, corporate, and investment banking operations for hundreds of financial institutions worldwide
-                  </p>
-
-                </div>
-
-
-                <div className="experience-block">
-
-                  <h4>
-                    Key Responsibilities
-                  </h4>
-
-                  <ul>
-
-                    <li>
-                      Monitored application health and performance.
-                    </li>
-
-                    <li>
-                      Investigated and resolved application issues.
-                    </li>
-
-                    <li>
-                      Performed RCA.
-                    </li>
-
-                    <li>
-                      Analyzed application logs and errors.
-                    </li>
-
-                    <li>
-                      Collaborated with technical teams.
-                    </li>
-
-                  </ul>
-
-                </div>
-
-
-                <div className="technology-section">
-
-                  <h4>
-                    Technologies & Tools
-                  </h4>
-
-                  <div className="technology-list">
-
-                    <span>SQL</span>
-                    <span>Linux</span>
-                    {/* <span></span> */}
-                    {/* <span>ServiceNow</span> */}
-                    <span>ITIL</span>
-                    <span>SaleForce</span>
-                    <span>Log Analysis</span>
-                    <span>AppDynamics</span>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </article>
-
+          <div className="technology-list">
+            <span>SQL</span>
+            <span>Linux</span>
+            <span>ITIL</span>
+            <span>Salesforce</span>
+            <span>Log Analysis</span>
+            <span>AppDynamics</span>
           </div>
+        </div>
+      </div>
+    </article>
 
-        </section>
+  </div>
+</section>
+```
 
 {/* ================= EDUCATION ================= */}
 

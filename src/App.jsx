@@ -414,6 +414,7 @@ function App() {
 
           </div>
 
+              {/* exp one */}
 
           <div className="experience-timeline">
 
@@ -519,6 +520,119 @@ function App() {
                     <span>ITRS</span>
                     <span>ServiceNow</span>
                     <span>ITIL</span>
+                    {/* <span>AppDynamics</span> */}
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+          {/* exp 2  */}
+
+                 <div className="experience-timeline">
+
+            <article className="experience-card">
+
+              <div className="experience-dot" />
+
+              <div className="experience-date">
+                JULY 2024 — JULY 2026
+              </div>
+
+              <div className="experience-content">
+
+                <div className="experience-top">
+
+                  <div>
+
+                    <p className="company">
+                      MyClan Sevices Pvt. Ltd.
+                    </p>
+
+                    <h3>
+                      Application Support Engineer
+                    </h3>
+
+                    <p className="project-name">
+                      Project:
+                      <strong>FLEXCUBE</strong>
+                    </p>
+
+                  </div>
+
+                  <div className="experience-badge">
+                    previous
+                  </div>
+
+                </div>
+
+
+                <div className="experience-description">
+
+                  <h4>
+                    Project Description
+                  </h4>
+
+                  <p>
+                   Oracle FLEXCUBE is an automated, universal core banking software suite developed and marketed by Oracle Financial Services. It serves as a comprehensive technology backbone that integrates and modernizes retail, corporate, and investment banking operations for hundreds of financial institutions worldwide
+                  </p>
+
+                </div>
+
+
+                <div className="experience-block">
+
+                  <h4>
+                    Key Responsibilities
+                  </h4>
+
+                  <ul>
+
+                    <li>
+                      Monitored application health and performance.
+                    </li>
+
+                    <li>
+                      Investigated and resolved application issues.
+                    </li>
+
+                    <li>
+                      Performed RCA.
+                    </li>
+
+                    <li>
+                      Analyzed application logs and errors.
+                    </li>
+
+                    <li>
+                      Collaborated with technical teams.
+                    </li>
+
+                  </ul>
+
+                </div>
+
+
+                <div className="technology-section">
+
+                  <h4>
+                    Technologies & Tools
+                  </h4>
+
+                  <div className="technology-list">
+
+                    <span>SQL</span>
+                    <span>Linux</span>
+                    {/* <span></span> */}
+                    {/* <span>ServiceNow</span> */}
+                    <span>ITIL</span>
+                    <span>SaleForce</span>
+                    <span>Log Analysis</span>
                     <span>AppDynamics</span>
 
                   </div>
